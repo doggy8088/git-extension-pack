@@ -1,0 +1,25 @@
+{
+    "name": "git-extension-pack",
+    "displayName": "Git Extension Pack",
+    "description": "Popular Visual Studio Code extensions for Git version control",
+    "version": "0.1.0",
+    "publisher": "doggy8088",
+    "icon": "icon.png",
+    "repository": "https://github.com/doggy8088/git-extension-pack",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "keywords": [
+        "git"
+    ],
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "codezombiech.gitignore",
+        "ziyasal.vscode-open-in-github",
+        "GitHub.remotehub"
+    ]
+}
